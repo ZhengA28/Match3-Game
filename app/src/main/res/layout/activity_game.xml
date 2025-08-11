@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/game"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".GameActivity">
+
+
+    <!--<fragment
+        android:id="@+id/grid_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/fragment_grid"
+        />
+        -->
+    <ImageView
+        android:id="@+id/grid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="5dp"
+        android:src="@drawable/grid"
+        />
+
+    <!--
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/pause_box"
+        android:onClick="pauseGame"
+        />-->
+
+    <fragment
+        android:id="@+id/score_fragment"
+        android:name="com.example.p3_azheng8.ScoreFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/grid"
+        android:layout_alignParentEnd="true"
+        tools:layout="@layout/fragment_score"
+        />
+
+    <fragment
+        android:id="@+id/turns_fragment"
+        android:name="com.example.p3_azheng8.TurnsFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/grid"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="12dp"
+        tools:layout="@layout/fragment_turns"
+        />
+
+    <fragment
+        android:id="@+id/fever_fragment"
+        android:name="com.example.p3_azheng8.FeverFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        tools:layout="@layout/fragment_fever"
+        />
+
+</RelativeLayout>

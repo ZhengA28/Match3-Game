@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">P3_azheng8</string>
+
+    <!--Game Resources-->
+    <string name="default_score">000000</string>
+    <string name="default_turns">15</string>"
+    <string name="veteran_turns">20</string>
+    <string name="expert_turns">30</string>
+
+    <!--Credit Resources-->
+    <string name="sprite_credit">SPRITE ART BY:</string>
+    <string name="programmer_credit">PROGRAMMER:</string>
+    <string name="music_credit">MUSIC BY:</string>
+    <string name="Tools_credit">TOOLS USED:</string>"
+    <string name="name">AZ</string>
+    <string name="name2">RYUHEIDO(NISHINO RYUHEI)</string>
+    <string name="tool">PIXEL STUDIO</string>
+    <string name="tool2">ANDROID STUDIO</string>
+
+    <!--Rules Resources-->
+    <string name="rules_title">HOW TO PLAY</string>
+    <string name="rules">Move the orbs on screen by swiping LEFT, RIGHT, UP or DOWN.
+        When 3 or more of the same orb types of made, they will disappear and points will be granted. You can move the orbs anywhere you like,
+        however BE CAREFUL AS IT WILL COST YOU ONE TURN.</string>
+    <string name="rules2">The more orbs you match in a row, the more points will be granted. When the number of turns remaining reaches zero, game will end.
+        If the total accumulated score is greater or equal to 4500, you win! Else you lose… so choose your moves wisely!</string>
+
+</resources>

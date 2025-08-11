@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/black"
+    tools:context=".CreditActivity">
+
+    <!--Programmer Credit-->
+    <TextView
+        android:id="@+id/programmer_credit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/programmer_credit"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:padding="5dp"
+        android:layout_marginTop="50dp"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/programmer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/programmer_credit"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:layout_marginBottom="30dp"/>
+
+
+    <!--Art Credit-->
+    <TextView
+        android:id="@+id/art_credit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sprite_credit"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/programmer"
+        android:padding="5dp"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/artist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/art_credit"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:layout_marginBottom="30dp"/>
+
+
+    <!--Music Credit-->
+    <TextView
+        android:id="@+id/music_credit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/music_credit"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/artist"
+        android:padding="5dp"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/music_artist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name2"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/music_credit"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:layout_marginBottom="30dp"/>
+
+    <!--Tool Credit-->
+    <TextView
+        android:id="@+id/tools_credit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Tools_credit"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/music_artist"
+        android:padding="5dp"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tool"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tools_credit"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/tools2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tool2"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tools"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"/>
+
+
+
+
+</RelativeLayout>
